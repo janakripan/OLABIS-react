@@ -12,6 +12,7 @@ import light from '../assets/light.png'
 import office from '../assets/office-idea-bulb.png'
 import radios from '../assets/radios.png'
 import thermometer from '../assets/thermometer.png'
+import PurchaseCard from '../components/PurchaseCard'
 
 
 
@@ -295,19 +296,11 @@ export default function Home(){
                     only gain exclusive benefits but also be part of a thriving network that’s helping us grow and innovate. </p>
                     <div>
 
-                        <div className='purchase-card w-full h-auto rounded drop-shadow-[ 0px_0px_4px_0px_rgba(0, 0, 0, 0.25)] p-2 md:p-5 bg-slate-500' >
-                            
-                            <div>
-                                <div>
-                                    <img src="" alt="" />
-                                </div>
-                            </div>
+                       
 
-                        </div>
+                    </div >
 
-                    </div>
-
-
+                        <PurchaseCard/>
                         
                     </div>
 

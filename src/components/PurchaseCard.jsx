@@ -4,7 +4,7 @@ import tick from '../assets/tick-01.png'
 
 function PurchaseCard() {
   return (
-    <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-20 '>
+    <div className=' grid grid-cols-1  lg:grid-cols-3 gap-5 mt-20 '>
          <div className='purchase-card-1 w-full h-fit rounded-lg bg-white shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)] backdrop-blur-sm p-2 md:p-5' >
                             
                             <div className='flex flex-row justify-between '>

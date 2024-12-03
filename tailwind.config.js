@@ -6,9 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        olabis:["Arima", "system-ui"],
+      },
       flexGrow: {
         2: '2'
-      }
+      },
+     
     },
   },
   plugins: [],

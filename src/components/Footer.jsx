@@ -10,12 +10,12 @@ import twitter from '../assets/twitter.png'
 function Footer() {
   return (
    <footer>
-    <div className='w-full p-4  h-fit lg:h-[528px] bg-black  md:p-16 ' >
+    <div className='w-full p-4  h-fit lg:h-[528px] bg-black  md:px-16 md:pt-20 ' >
       
       <div className="section1 md:flex flex-row  ">
         <div className=" sm:w-full md:w-6/12 mb-10 md:mb-0 ">
             <img src={footerLogo} alt="" className=' sm:w-8/12 md:w-5/12 mb-6 md:mb-14 ' />
-            <span className='text-white  font-sans font-medium text-xs tracking-tighter '>It is a long established fact that a reader will be distracted by the readable content</span>
+            <span className='text-white  font-sans font-normal text-xs tracking-wide '>It is a long established fact that a reader will be distracted by the readable content</span>
 
          </div>
           <div className="sm:w-full  md:w-6/12 flex flex-col  md:ml-auto ">
@@ -24,8 +24,8 @@ function Footer() {
               <div className="searchBar flex flex-row h-10 bg-white justify-between items-center sm:max-w-full lg:w-7/8 lg:h-16 mt-14  rounded-[8px] p-1 ">
                 
 
-                 <form className='outline-none border-none w-full h-full text-base font-[#0000 ] font-medium '> 
-                    <input type="email" id='email' name='email'    placeholder='your email address  '  />
+                 <form className='outline-none flex items-center pl-4 border-none w-full h-full text-base font-[#0000 ] font-medium '> 
+                    <input className=' font-sans font-medium text-black w-full h-full outline-none placeholder-black placeholder-text-sm placeholder-leading-6 placeholder-font-sans ' type="email" id='email' name='email'    placeholder='your email address  '  />
 
                  </form>
                  <button className='bg-[#EC0606] h-full w-2/3 rounded-[12px] lg:w-1/4 text-white text-base font-sans '> subscribe</button>
@@ -40,7 +40,7 @@ function Footer() {
 
       </div>
 
-      <div className="section2 w-full flex flex-col items-center grid-cols-4 md:flex-row justify-between md:items-start mt-10 ">
+      <div className="section2 w-full flex flex-col items-center grid-cols-4 md:flex-row justify-between md:items-start mt-16 ">
 
         <div className="follow mb-10 flex flex-col items-center md:mb-0 md:items-start  ">
           <h4 className='text-white font-sans text-2xl mb-10 '>Follow us on</h4>
@@ -66,8 +66,8 @@ function Footer() {
         </div>
 
         <div className="qklinks mb-10 flex flex-col items-center md:mb-0 md:items-start">
-          <h4 className='text-white font-sans text-2xl mb-7 ' > Quick Links</h4>
-          <ul className='text-white text-base flex flex-col items-start gap-y-7'>
+          <h4 className='text-white font-sans text-xl mb-7 ' > Quick Links</h4>
+          <ul className='text-white text-sm flex flex-col items-start gap-y-7'>
             <li>
               <Link to='#'>About</Link>
             </li>
@@ -85,8 +85,8 @@ function Footer() {
         <div className="product mb-10 flex flex-col items-center md:mb-0 md:items-start">
 
 
-        <h4 className='text-white font-sans text-2xl mb-7 ' > Products</h4>
-          <ul className='text-white text-base flex flex-col items-start gap-y-7' >
+        <h4 className='text-white font-sans text-xl mb-7 ' > Products</h4>
+          <ul className='text-white text-sm flex flex-col items-start gap-y-7' >
             <li>
               <Link to='#'>Clients</Link>
             </li>
@@ -104,8 +104,8 @@ function Footer() {
        
         <div className="contact mb-10 flex flex-col items-center md:mb-0 md:items-start">
 
-        <h4 className='text-white font-sans text-2xl mb-7 ' >Contact</h4>
-          <ul className='text-white text-base flex flex-col items-start gap-y-7' >
+        <h4 className='text-white font-sans text-xl mb-7 ' >Contact</h4>
+          <ul className='text-white text-sm flex flex-col items-start gap-y-7' >
             <li>
               <Link to='#'>info@olabis.com</Link>
             </li>

@@ -41,7 +41,7 @@ function PurchaseCard() {
                                         <img src= {tick} className='w-6 h-6' alt="" />  <span className='text-sm md:text-base font-normal'>25% Discount on a Webflow Plan</span>
                                     </li>
                                      </ul>
-                                <button className=' w-full bg-white shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)] backdrop-blur-sm px-3 text-base md:text-lg font-semibold text-[#5C5C5C] rounded-full ' >
+                                <button className=' w-full bg-white shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)] backdrop-blur-sm px-3 text-base md:text-lg py-1 font-semibold text-[#5C5C5C] rounded-full ' >
                                 Join for free
                                 </button>
                             </div>
@@ -50,7 +50,7 @@ function PurchaseCard() {
 
 
 
-                        <div className='purchase-card2 w-full h-fit rounded-lg shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)] backdrop-blur-sm p-2 md:p-5' >
+                        <div className='purchase-card2 w-full h-fit rounded-lg shadow-[0px_0px_4px_0px_rgba(236,6,6,1)]  backdrop-blur-sm p-2 md:p-5' >
                             
                             <div className='flex flex-row justify-between '>
                                 <div className='w-fit h-auto flex flex-row items-center justify-start gap-2 '>
@@ -107,7 +107,7 @@ function PurchaseCard() {
                                         <img src= {tick} className='w-6 h-6' alt="" />  <span className='text-sm md:text-base font-normal'>25% Discount on a Webflow Plan</span>
                                     </li>
                                 </ul>
-                                <button className=' w-full bg-[#EC0606] px-3 text-base md:text-lg font-semibold text-white rounded-full ' >
+                                <button className=' w-full bg-[#EC0606] px-3 text-base md:text-lg py-1 font-semibold text-white rounded-full ' >
                                          Purchase
                                 </button>
                             </div>
@@ -178,7 +178,7 @@ function PurchaseCard() {
                                         <img src= {tick} className='w-6 h-6' alt="" />  <span className='text-sm md:text-base font-normal'>25% Discount on a Webflow Plan</span>
                                     </li>
                                 </ul>
-                                <button className=' w-full bg-[#FABC2A] px-3 text-base md:text-lg font-semibold text-white rounded-full ' >
+                                <button className=' w-full bg-[#FABC2A] px-3 text-base md:text-lg py-1 font-semibold text-white rounded-full ' >
                                          Purchase
                                 </button>
                             </div>

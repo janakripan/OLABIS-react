@@ -14,7 +14,7 @@ function Header() {
             </div>
             
             
-            <div className="logo w-21 h-6 font-olabis text-[#EC0606]  font-bold text-[23.95px] flex items-center "> Olabis </div>
+            <div className="logo w-21 h-6 font-olabis text-[#EC0606]  font-bold  text-[23.95px] flex items-center "> Olabis </div>
             
 
             <div className="nav hidden md:block    justify-center w-[550px]">

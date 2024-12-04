@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <main className=" w-full  ">
         <section className="">
-          <div className="hero h-fit w-full py-6  bg-[#F2EDEB] md:py-16 md:pl-16 md:h-[680px] overflow-hidden flex relative z-50 ">
+          <div className="hero h-fit w-full py-6 px-3 bg-[#F2EDEB] md:py-16 md:pl-16 md:h-[680px] overflow-hidden flex relative z-50 ">
             <div className="flex flex-col items-center md:items-start gap-y-6 md:w-1/2 z-50 ">
               <h1 className=" text-4xl  md:text-5xl xl:text-6xl  font-bold z-50 ">
                 <span className="lg:leading-[90px] z-50 ">

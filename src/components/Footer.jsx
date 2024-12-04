@@ -5,6 +5,7 @@ import fb from '../assets/fb.png'
 import insta from '../assets/insta.png'
 import yt from '../assets/youtube.png'
 import twitter from '../assets/twitter.png'
+import Button from './shared/button'
 
 
 function Footer() {
@@ -14,7 +15,7 @@ function Footer() {
       
       <div className="section1 md:flex flex-row  ">
         <div className=" sm:w-full md:w-6/12 mb-10 md:mb-0 ">
-            <img src={footerLogo} alt="" className=' sm:w-8/12 md:w-5/12 mb-6 md:mb-14 ' />
+            <img src={footerLogo} alt="" className="sm:w-5 md:w-5/12 mb-6 md:mb-14"   />
             <span className='text-white  font-sans font-normal text-xs tracking-wide '>It is a long established fact that a reader will be distracted by the readable content</span>
 
          </div>
@@ -28,7 +29,13 @@ function Footer() {
                     <input className=' font-sans font-medium text-black w-full h-full outline-none placeholder-black placeholder-text-sm placeholder-leading-6 placeholder-font-sans ' type="email" id='email' name='email'    placeholder='your email address  '  />
 
                  </form>
-                 <button className='bg-[#EC0606] h-full w-2/3 rounded-[12px] lg:w-1/4 text-white text-base font-sans '> subscribe</button>
+                 
+                 <Button
+                 className="h-full w-2/3 rounded-lg lg:w-1/4"
+                 type='submit'
+                   >
+                  Subscribe
+                 </Button>
                 
               </div>
 

@@ -21,7 +21,7 @@ function Graphics() {
                   className=" w-[358px] h-[468px] absolute right-[449px] top-[482px] z-30 "
                   alt=""/>
 
-                <div className=" hidden lg:block lg:opacity-75 xl:opacity-100 finance w-fit h-fit bg-white z-30 absolute right-[830px] top-[585px] border-[.36px] border-[#CFD8DC] rounded-xl px-1.5 ">
+                <div className=" hidden lg:block lg:opacity-80 xl:opacity-100 finance w-fit h-fit bg-white z-30 absolute right-[830px] top-[585px] border-[.36px] border-[#CFD8DC] rounded-xl px-1.5 ">
 
                     <img src={Finance} className='h-auto w-auto ' alt="" />
 

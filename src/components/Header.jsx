@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Home from '../routes/Home.jsx'
+import Button from "./shared/button";
 
 
 function Header() {
@@ -39,7 +39,13 @@ function Header() {
 
             <div className="signUpButton sm:w-3/12  md:w-2/12 xl:w-1/12 ">
 
-                 <button className="signup h-[46px] w-full bg-[#EC0606] py-[8px] px-[32px]   rounded-[44px] text-white  sm:text-xs md:text-sm md:tracking-tighter ">Sign Up </button>
+                
+                 <Button
+                
+                 className="h-[46px] w-full bg-[#EC0606] py-[8px] px-[32px]    text-white  sm:text-xs md:text-sm md:tracking-tighter"
+      >
+                 Sign Up
+                </Button>
             
             </div>
 

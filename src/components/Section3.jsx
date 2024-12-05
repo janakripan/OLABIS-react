@@ -1,6 +1,7 @@
 import React from 'react'
 import dataOf3 from '../constants/dataOf3'
-import CommonCard from './shared/commonCard'
+import CommonCard from './shared/CommonCard'
+
 
 
 
@@ -18,6 +19,7 @@ function Section3() {
 
               {dataOf3.map((card)=>(
                 <CommonCard
+                
                 key={card.id}
                 tittle={card.tittle}
                 image={card.image}
@@ -27,7 +29,7 @@ function Section3() {
                 contentStyle={card.contentStyle}
                 titleStyle={card.titleStyle}
                 
-                
+
                 />
                 
                 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Button from "./shared/button";
+import Button from "./shared/Button"
 
 
 function Header() {
@@ -48,8 +48,7 @@ function Header() {
                 
                  <Button
                 
-                 className=" mr-2 h-[36px] md:h-[46px] md:w-full bg-[#EC0606] md:py-[8px] md:px-[32px] hover:scale-105 hover:bg-red-700 transition-colors duration-300  text-white text-xs md:text-sm md:tracking-tighter"
-      >
+                 className=" mr-2 h-[36px] md:h-[46px] md:w-full bg-[#EC0606] md:py-[8px] md:px-[32px] hover:scale-105 hover:bg-red-700 transition-colors duration-300  text-white text-xs md:text-sm md:tracking-tighter">
                  Sign Up
                 </Button>
             

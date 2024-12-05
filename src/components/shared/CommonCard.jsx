@@ -9,12 +9,13 @@ const CommonCard= ({
     contentStyle,
     titleStyle,
     wrapStyle,
+    imageDimentions,
 }) =>{
   return (
     <div className={`${wrapStyle}`} >
         <div className={`card flex flex-col  ${cardStyle} `}>
         {image&&(<div className={`  ${imageStyle}`} >
-            <img src={image} alt="" className=" w-auto h-auto" />
+            <img src={image} alt="" className={`${imageDimentions}`} />
         </div>)}
     
         {tittle&&(<h3 className={` ${titleStyle} `}>

@@ -42,7 +42,7 @@ const purchase= [
                 "Unlimited filter & search results",
                 "Unlimited boards",
                 "Mobile website previews",
-                "Old website versions",
+                
                 "Screens download",
                 "‘Hire me’ button on your profile",
                 "Ads-free",
@@ -69,8 +69,7 @@ const purchase= [
                 "Unlimited boards",
                 "Mobile website previews",
                 "Unlimited filter & search results",
-                "Unlimited filter & search results",
-                "Unlimited filter & search results",
+               
                 "Old website versions",
                 "Screens download",
                 "‘Hire me’ button on your profile",

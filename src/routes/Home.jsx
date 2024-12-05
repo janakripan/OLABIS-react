@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
       <main className=" w-full  ">
-        <section className="">
-          <div className="hero h-fit w-full py-6 px-3 bg-[#F2EDEB] md:py-16 md:pl-16 md:h-[680px] overflow-hidden flex relative z-50 ">
-            <div className="flex flex-col items-center md:items-start gap-y-6 md:w-1/2 z-50 ">
+        <section className="bg-[#F2EDEB]">
+          <div className="hero h-fit w-full py-6 px-3 bg-[#F2EDEB]  max-w-[1500px] mx-auto  md:py-16 md:pl-16 md:h-[680px] overflow-hidden flex relative z-50 ">
+            <div className="flex flex-col items-center  md:items-start gap-y-6 md:w-1/2 z-50 ">
               <h1 className=" text-4xl  md:text-5xl xl:text-6xl  font-bold z-50 ">
                 <span className="lg:leading-[90px] z-50 ">
                   Connecting Retailers To Their Coustomers Like
@@ -49,12 +49,12 @@ export default function Home() {
                 </li>
               </ul>
               <div className="buttons flex flex-row items-center gap-10">
-                <button className=" w-2/5  text-sm flex items-center justify-center text-white md:w-[170px] lg:text-2xl  h-7 md:h-12 bg-[#EC0606] rounded-full ">
+                <button className=" w-2/5  text-sm flex items-center justify-center hover:scale-105 hover:bg-red-700 transition-colors duration-300 text-white md:w-[170px] max-w-[170px] lg:text-xl  h-7 md:h-12 bg-[#EC0606] rounded-full ">
                   Get Started
                 </button>
 
-                <button className=" flex flex-row items-center text-sm font-semibold text-[#EC0606] md:w-full  lg:text-2xl max-w-[180px]">
-                  View Products <img className=" h-6 w-6" src={arrow} alt="" />
+                <button className=" flex flex-row items-center text-sm font-semibold text-[#EC0606] hover:text-red-500 md:w-full  lg:text-xl max-w-[180px]">
+                  View Products <img className=" h-6 w-6 " src={arrow} alt="" />
                 </button>
               </div>
             </div >
@@ -69,13 +69,13 @@ export default function Home() {
 
         <Section3/>
 
-        <section className="4">
+        <section className="4 max-w-[1500px] mx-auto">
           <div className=" w-full p-6 md:p-16 ">
-            <h2 className="text-2xl leading-[2rem] md:leading-[4rem]   md:text-5xl   font-semibold text-center mb-4 md:mb-10">
+            <h2 className="text-2xl leading-[2rem] md:leading-[4rem]   md:text-4xl   font-semibold text-center mb-4 md:mb-10">
               Choose your best plan
             </h2>
 
-            <p className="font-normal text-sm md:text-lg leading-8 text-center">
+            <p className="font-normal text-sm md:text-base leading-8 text-center">
               
               Unlock unlimited access to all our features and become a valued
               member of our incredible community of supporters. By joining,

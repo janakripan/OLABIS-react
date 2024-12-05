@@ -17,10 +17,10 @@ const Card = ({
   buttonText,
   onButtonClick,
   badgeColor,
-  cardStyles 
+  cardStyles, 
 }) =>  {
   return (
-    <div className={`purchase-card3 w-full h-fit rounded-lg shadow-card hover:shadow-cardhover backdrop-blur-sm p-2 md:p-5 ${cardStyles} `}  >
+    <div className={`purchase-card3 w-full h-fit rounded-lg  backdrop-blur-sm p-2 md:p-5 ${cardStyles || "shadow-card hover:shadow-cardhover"} `}  >
                             
     <div className='flex flex-row justify-between '>
         {imageUrl&&(<div className='w-fit h-auto flex flex-row items-center justify-start gap-2 '>
@@ -46,9 +46,9 @@ const Card = ({
     <div className="content w-full">
         <h6 className=' mt-4 '>{benifit}</h6>
         {features&&(
-          <ul className='text-sm md:text-base font-normal my-6 flex flex-col gap-y-6' >
+          <ul className='text-sm md:text-base font-normal my-6 flex flex-col gap-y-3' >
             {features.map((items)=>(
-              <li key={items}  className='flex flex-row gap-5 items-center text-xs md:text-sm  font-normal ' >
+              <li key={items}  className='flex flex-row gap-3 items-center text-xs md:text-sm  font-normal ' >
                 <img src={tick} alt="" />{items}
               </li>
 
@@ -60,7 +60,7 @@ const Card = ({
         {buttonText && (
           <button
             onClick={onButtonClick}
-            className= {`mt-6 w-full text-base py-2 px-4 rounded-full md:text-lg transform transition-transform
+            className= {`mt-4 w-full text-base py-2 px-4 rounded-full md:text-lg transform transition-transform
             hover:scale-105  ${buttonStyles || " bg-white   " } `} >
             {buttonText}
           </button>

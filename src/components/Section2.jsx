@@ -35,7 +35,7 @@ function Section2() {
         Engage, promote, and sell <br /> with ease on
         <span className="text-[#EC0606]">Olabis</span>
       </h2>
-      <div className="card-section w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center ">
+      <div className="card-section w-full max-w-[1500px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center ">
 
         {dataOf2.map((card)=>(
           <CommonCard
@@ -48,6 +48,7 @@ function Section2() {
           contentStyle={card.contentStyle}
           titleStyle={card.titleStyle}
           wrapStyle={card.wrapStyle}
+          imageDimentions={card.imageDimentions}
 
           />
         ))}

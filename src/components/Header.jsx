@@ -20,19 +20,19 @@ function Header() {
 
             <div className="nav hidden md:block    justify-center w-[550px]">
              <ul className=' w-2/3 max-h-[30px] gap-[20px] lg:gap-x-[50px]  lg:w-[550px] flex flex-row    '>
-                <li className='font-sans font-semibold  leading-[30px] tracking-tighter  '>
+                <li className='font-sans font-semibold  leading-[30px] tracking-tighter hover:text-red-400 transition-all duration-300 '>
                     <Link to="/">Home</Link>
                 </li>
-                <li className='font-sans font-semibold  leading-[30px] tracking-tighter'>
+                <li className='font-sans font-semibold  leading-[30px] tracking-tighter   hover:text-red-400 transition-all duration-300'>
                     <Link to="/about">About Us</Link>
                 </li>
-                <li className='font-sans font-semibold  leading-[30px] tracking-tighter'>
+                <li className='font-sans font-semibold  leading-[30px] tracking-tighter  hover:text-red-400 transition-all duration-300'>
                     <Link to="#">Features</Link>
                 </li>
-                <li className='font-sans font-semibold  leading-[30px] tracking-tighter'>
+                <li className='font-sans font-semibold  leading-[30px] tracking-tighter  hover:text-red-400 transition-all duration-300'>
                     <Link to="#">Price</Link>
                 </li>
-                <li className='font-sans font-semibold  leading-[30px] tracking-tighter'>
+                <li className='font-sans font-semibold  leading-[30px] tracking-tighter  hover:text-red-400 transition-all duration-300'>
                     <Link to="#">Contact Us</Link>
                  </li>
              </ul>
@@ -43,7 +43,7 @@ function Header() {
                 
                  <Button
                 
-                 className="h-[46px] w-full bg-[#EC0606] py-[8px] px-[32px]    text-white  sm:text-xs md:text-sm md:tracking-tighter"
+                 className="h-[46px] w-full bg-[#EC0606] py-[8px] px-[32px] hover:scale-105 hover:bg-red-700 transition-colors duration-300  text-white  sm:text-xs md:text-sm md:tracking-tighter"
       >
                  Sign Up
                 </Button>

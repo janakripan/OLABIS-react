@@ -10,10 +10,15 @@ export default function Home() {
     <>
       <main className=" w-full  ">
         <section className="bg-[#F2EDEB]">
-          <div className="hero  w-full py-6 px-3 bg-[#F2EDEB]  max-w-[1500px] mx-auto  md:py-16 md:pl-16 h-screen md:h-[680px] overflow-hidden flex relative   ">
-            <div className="flex flex-col items-center  md:items-start gap-y-6 md:w-1/2 z-50 ">
+
+          <div className="hero flex items-centere md:items-start md:justify-start w-full py-6 px-3 bg-[#F2EDEB]  max-w-[1500px] mx-auto
+            md:py-16 md:pl-16 h-screen md:h-[680px] overflow-hidden relative   ">
+            
+            <div className="flex flex-col items-center justify-center md:justify-normal py-14  md:items-start gap-y-6 md:w-1/2 z-50 ">
+             
               <h1 className=" text-4xl  md:text-5xl xl:text-6xl  font-bold z-50 ">
-                <span className="lg:leading-[90px] z-50 ">
+                
+                <span className="  lg:leading-[90px] z-50 ">
                   Connecting Retailers To Their Coustomers Like
                 </span>
                 <br />
@@ -21,7 +26,7 @@ export default function Home() {
                   Never Before
                 </span>
               </h1>
-              <ul className="text-xs tracking-tighter lg:text-base gap-y-5 flex flex-col mb-10 ">
+              <ul className="text-sm tracking-tighter lg:text-base gap-y-8 flex flex-col mb-10 ">
                 <li className="flex flex-row justify-start items-start gap-3">
                   <img
                     src={circltick}

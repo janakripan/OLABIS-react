@@ -5,7 +5,7 @@ import fb from '../assets/fb.png'
 import insta from '../assets/insta.png'
 import yt from '../assets/youtube.png'
 import twitter from '../assets/twitter.png'
-import Button from './shared/button'
+import Button from './shared/Button'
 
 
 function Footer() {

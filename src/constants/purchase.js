@@ -7,19 +7,18 @@ const purchase= [
 
             {
               id:'1',
-              imgStyle:'opacity-75',
+              imgStyle:'opacity-65',
               imageUrl: boxicon ,
-              price:'200',
-              currency:'AED',
-              duration:'/month',
-              benifit:'with premium plan you get',
+              price:'Free',
+              currency:'',
+              duration:'',
+              benifit:'with free plan you get',
               buttonStyles:" bg-white backdrop-blur-sm shadow-card text-gray-500 " ,
               content:[
                 "Access to limited categories",
                 "Access to limited components",
                 "Limited filter & search results",
                 "Limited boards",
-                "Mobile website previews",
                 "Old website versions",
                 
 
@@ -32,10 +31,10 @@ const purchase= [
               plan:"premium", 
               imageUrl: boxicon ,
               badgeName:'popular',
-              price:'200',
+              price:'120',
               currency:'AED',
               duration:'/month',
-              benifit:'with premium plan you get',
+              benifit:'with pro plan you get',
               buttonStyles:"bg-red-600 text-white  " ,
               content:[
                 "Access to all categories",

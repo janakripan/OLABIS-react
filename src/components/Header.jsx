@@ -5,16 +5,17 @@ import Button from "./shared/button";
 
 function Header() {
   return (
-    <header className='w-full  bg-white  absolute top-0  z-50 flex justify-center '>
+    <header className='w-full  bg-white  absolute top-0 = z-50 flex justify-center  '>
 
-        <div className='header lg:px-[66px]   flex justify-between container max-w-full h-[100px]  items-center  '>
+        <div className='max-w-[1500px] h-20 w-[1440px] mx-auto '>
+        <div className='header lg:px-[66px]   flex justify-between container max-w-full h-[80px]  items-center   '>
             
             <div className="menu md:hidden pl-3 ">
                <button className=' material-symbols-outlined  ' class="material-symbols-outlined" >menu</button> 
             </div>
             
             
-            <div className="logo w-21 h-6 font-olabis text-[#EC0606]  font-bold  text-[23.95px] flex items-center "> Olabis </div>
+            <div className="logo w-21 h-6 font-olabis text-[#EC0606]  font-bold  text-3xl flex items-center "> Olabis </div>
             
 
             <div className="nav hidden md:block    justify-center w-[550px]">
@@ -52,6 +53,7 @@ function Header() {
 
         </div>
         
+        </div>
         
         
         

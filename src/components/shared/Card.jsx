@@ -48,7 +48,7 @@ const Card = ({
         {features&&(
           <ul className='text-sm md:text-base font-normal my-6 flex flex-col gap-y-6' >
             {features.map((items)=>(
-              <li key={items}  className='flex flex-row gap-5 items-center text-sm md:text-base font-normal' >
+              <li key={items}  className='flex flex-row gap-5 items-center text-xs md:text-sm  font-normal ' >
                 <img src={tick} alt="" />{items}
               </li>
 

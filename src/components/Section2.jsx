@@ -5,7 +5,9 @@ import mobility from "../assets/mobility.png"
 import avis from "../assets/avis.png"
 import keolis from "../assets/keolis.png"
 import avl from "../assets/avl.png"
-import truck from "../assets/tow-truck.png"
+import dataOf2 from '../constants/dataOfSection2'
+import CommonCard from './shared/commonCard'
+
 
 function Section2() {
   return (
@@ -34,94 +36,24 @@ function Section2() {
         <span className="text-[#EC0606]">Olabis</span>
       </h2>
       <div className="card-section w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center ">
-        <div className=" w-full md:w-[355px] h-fit  px-7 py-9 ">
-          <div className=" bg-white w-full h-full flex flex-col items-center gap-[4px] ">
-            <div className="w-20 h-20 rounded-full bg-[#F46A6A] flex flex-row justify-center items-center ">
-              <img src={truck} alt="" className=" w-[50px] h-[50px]" />
-            </div>
-            <h3 className="text-3xl font-semibold leading-10">
-              Services Listing
-            </h3>
-            <p className="font-normal text-base text-center">
-              You can list your services with explaination content and
-              enquiry button.
-            </p>
-          </div>
-        </div>
 
-        <div className=" w-full md:w-[355px] h-fit  px-7 py-9 ">
-          <div className=" bg-white w-full h-full flex flex-col items-center gap-[4px] ">
-            <div className="w-20 h-20 rounded-full bg-[#F46A6A] flex flex-row justify-center items-center ">
-              <img src={truck} alt="" className=" w-[50px] h-[50px]" />
-            </div>
-            <h3 className="text-3xl font-semibold leading-10">
-              Save vCard
-            </h3>
-            <p className="font-normal text-base text-center">
-              Visitor can save your phone number as vCard file format.
-              button.
-            </p>
-          </div>
-        </div>
+        {dataOf2.map((card)=>(
+          <CommonCard
+          
+          tittle={card.tittle}
+          image={card.image}
+          content={card.content}
+          cardStyle={card.cardStyle}
+          imageStyle={card.imageStyle}
+          contentStyle={card.contentStyle}
+          titleStyle={card.titleStyle}
+          wrapStyle={card.wrapStyle}
 
-        <div className=" w-full md:w-[355px] h-fit  px-7 py-9 ">
-          <div className=" bg-white w-full h-full flex flex-col items-center gap-[4px] ">
-            <div className="w-20 h-20 rounded-full bg-[#F46A6A] flex flex-row justify-center items-center ">
-              <img src={truck} alt="" className=" w-[50px] h-[50px]" />
-            </div>
-            <h3 className="text-3xl font-semibold leading-10">
-              Contact Information
-            </h3>
-            <p className="font-normal text-base text-center">
-              The ability to add and update contact details, such as name,
-              phone number, email, website, and social media profiles.
-            </p>
-          </div>
-        </div>
-
-        <div className=" w-full md:w-[355px] h-fit  px-7 py-9 ">
-          <div className=" bg-white w-full h-full flex flex-col items-center gap-[4px] ">
-            <div className="w-20 h-20 rounded-full bg-[#F46A6A] flex flex-row justify-center items-center ">
-              <img src={truck} alt="" className=" w-[50px] h-[50px]" />
-            </div>
-            <h3 className="text-3xl font-semibold leading-10">
-              Sharing Options
-            </h3>
-            <p className="font-normal text-base text-center">
-              Options to share the digital business card via email, social
-              media, text message, or other communication channels.
-            </p>
-          </div>
-        </div>
-
-        <div className=" w-full md:w-[355px] h-fit  px-7 py-9 ">
-          <div className=" bg-white w-full h-full flex flex-col items-center gap-[4px] ">
-            <div className="w-20 h-20 rounded-full bg-[#F46A6A] flex flex-row justify-center items-center ">
-              <img src={truck} alt="" className=" w-[50px] h-[50px]" />
-            </div>
-            <h3 className="text-3xl font-semibold leading-10">
-              Services Listing
-            </h3>
-            <p className="font-normal text-base text-center">
-              You can list your services with explaination content and
-              enquiry button.
-            </p>
-          </div>
-        </div>
-
-        <div className=" w-full md:w-[355px] h-fit  px-7 py-9 ">
-          <div className=" bg-white w-full h-full flex flex-col items-center gap-[4px] ">
-            <div className="w-20 h-20 rounded-full bg-[#F46A6A] flex flex-row justify-center items-center ">
-              <img src={truck} alt="" className=" w-[50px] h-[50px]" />
-            </div>
-            <h3 className="text-3xl font-semibold leading-10">
-              Save vCard
-            </h3>
-            <p className="font-normal text-base text-center">
-              Visitor can save your phone number as vCard file format.
-            </p>
-          </div>
-        </div>
+          />
+        ))}
+        
+        
+      
       </div>
     </div>
   </section>

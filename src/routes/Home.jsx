@@ -75,12 +75,12 @@ export default function Home() {
               Choose your best plan
             </h2>
 
-            <p className="ont-normal text-sm md:text-lg leading-8 text-center">
-              {" "}
+            <p className="font-normal text-sm md:text-lg leading-8 text-center">
+              
               Unlock unlimited access to all our features and become a valued
               member of our incredible community of supporters. By joining,
               you’ll not only gain exclusive benefits but also be part of a
-              thriving network that’s helping us grow and innovate.{" "}
+              thriving network that’s helping us grow and innovate.
             </p>
             <div></div>
 

@@ -5,7 +5,7 @@ const dataOf2=[
     
        
         {
-            id:'1',
+            num:'1',
             tittle:'Services Listing',
             image:truck,
             content:" You can list your services with explaination content andenquiry button.",
@@ -17,7 +17,7 @@ const dataOf2=[
             wrapStyle:'w-full md:w-[305px] h-fit  px-5 py-7 ',
         },
         {
-            id:'2',
+            num:'2',
             tittle:'Services Listing',
             image: truck,
             content:" You can list your services with explaination content andenquiry button.",
@@ -29,7 +29,7 @@ const dataOf2=[
             wrapStyle:'w-full md:w-[305px] h-fit  px-5 py-7 ',
         },
         {
-            id:'3',
+            num:'3',
             tittle:'Services Listing',
             image: truck,
             content:" You can list your services with explaination content andenquiry button.",
@@ -41,7 +41,7 @@ const dataOf2=[
             wrapStyle:'w-full md:w-[305px] h-fit  px-5 py-7 ',
         },
         {
-            id:'4',
+            num:'4',
             tittle:'Services Listing',
             image: truck,
             content:" You can list your services with explaination content andenquiry button.",
@@ -53,7 +53,7 @@ const dataOf2=[
             wrapStyle:'w-full md:w-[305px] h-fit  px-5 py-7 ',
         },
         {
-            id:'5',
+            num:'5',
             tittle:'Services Listing',
             image: truck,
             content:" You can list your services with explaination content andenquiry button.",
@@ -65,7 +65,7 @@ const dataOf2=[
             wrapStyle:'w-full md:w-[305px] h-fit  px-5 py-7 ',
         },
         {
-            id:'6',
+            num:'6',
             tittle:'Services Listing',
             image: truck,
             content:" You can list your services with explaination content andenquiry button.",

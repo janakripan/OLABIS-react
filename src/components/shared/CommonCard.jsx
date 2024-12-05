@@ -21,7 +21,7 @@ const CommonCard= ({
         {tittle&&(<h3 className={` ${titleStyle} `}>
             {tittle}
         </h3>)}
-        {content&&(<p className={` ${contentStyle}`}>
+        {content&&(<p  style={{lineHeight : "32px"}} className={`${contentStyle}  w-[80%] text-gray-800`}>
             {content}
         </p>)}
     </div>

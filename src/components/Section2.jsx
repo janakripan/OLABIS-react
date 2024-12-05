@@ -39,7 +39,7 @@ function Section2() {
 
         {dataOf2.map((card)=>(
           <CommonCard
-          
+          key={card.num}
           tittle={card.tittle}
           image={card.image}
           content={card.content}

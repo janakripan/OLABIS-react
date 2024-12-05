@@ -1,6 +1,6 @@
 import React from 'react'
 import purchase from '../constants/purchase'
-import Card from './shared/card'
+import Card from './shared/Card'
 
 
 function PurchaseCard() {

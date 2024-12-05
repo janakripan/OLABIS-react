@@ -6,7 +6,7 @@ import avis from "../assets/avis.png"
 import keolis from "../assets/keolis.png"
 import avl from "../assets/avl.png"
 import dataOf2 from '../constants/dataOfSection2'
-import CommonCard from './shared/commonCard'
+import CommonCard from './shared/CommonCard'
 
 
 function Section2() {
